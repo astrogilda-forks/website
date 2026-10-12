@@ -11,13 +11,13 @@ help you get started.
 ## Active Maintainers
 
 {% for maintainer in site.data.maintainers.maintainers %}
-- {{ maintainer.name }}, {{ maintainer.organization }} (@{{ maintainer.github }})
+- {{ maintainer.name }}, {{ maintainer.organization }} ([@{{ maintainer.github }}](https://github.com/{{ maintainer.github }}))
 {% endfor %}
 
 ## Emeritus Maintainers
 
 {% for maintainer in site.data.maintainers.emeritus %}
-- {{ maintainer.name }}, {{ maintainer.organization }} (@{{ maintainer.github }})
+- {{ maintainer.name }}, {{ maintainer.organization }} ([@{{ maintainer.github }}](https://github.com/{{ maintainer.github }}))
 {% endfor %}
 
 Want to get involved? See the [Contributing guide](/community/contributing)
