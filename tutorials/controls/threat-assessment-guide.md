@@ -124,7 +124,7 @@ capabilities:
 mapping-references:
   - id: CCC
     title: Common Cloud Controls Core
-    version: v2025.10
+    version: v2026.06-rc1
     url: https://github.com/finos/common-cloud-controls/releases
     description: |
       Foundational repository of reusable security controls, capabilities,
@@ -216,8 +216,8 @@ metadata:
   mapping-references:
     - id: CCC
       title: Common Cloud Controls Core
-      version: v2025.10
-      url: https://github.com/finos/common-cloud-controls/releases
+      version: v2026.06-rc1
+      url: https://github.com/finos/common-cloud-controls/releases/download/core%2Fccc%2Fv2026.06-rc1/capabilities.yaml
       description: |
         Foundational repository of reusable security controls, capabilities,
         and threat models maintained by FINOS.
