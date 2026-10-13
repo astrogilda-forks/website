@@ -24,7 +24,7 @@ Gemara splits these into two artifact kinds: a `CapabilityCatalog` for capabilit
 
 Select a component or technology to assess (service, API, infrastructure component, or technology stack).
 
-**Leverage existing resources**: Gemara supports importing entries from external catalogs so you don't have to start from scratch. The FINOS Common Cloud Controls (CCC) Core [catalog](https://github.com/finos/common-cloud-controls/releases/download/v2025.10/CCC.Core_v2025.10.yaml) defines well-vetted capabilities and threats that apply broadly across cloud services. These pre-built items can help accelerate your assessment.
+**Leverage existing resources**: Gemara supports importing entries from external catalogs so you don't have to start from scratch. The FINOS Common Cloud Controls (CCC) Core [catalogs](https://github.com/finos/common-cloud-controls/releases/tag/core%2Fccc%2Fv2026.06-rc1) define well-vetted capabilities and threats that apply broadly across cloud services. These pre-built items can help accelerate your assessment.
 
 We will explore how this is leveraged below as we dive into our container management tool example (i.e., `SEC.SLAM.CM.CAP` for capabilities and `SEC.SLAM.CM` for threats).
 
@@ -61,8 +61,8 @@ metadata:
   mapping-references:
     - id: CCC
       title: Common Cloud Controls Core
-      version: v2025.10
-      url: https://github.com/finos/common-cloud-controls/releases
+      version: v2026.06-rc1
+      url: https://github.com/finos/common-cloud-controls/releases/download/core%2Fccc%2Fv2026.06-rc1/capabilities.yaml
       description: |
         Foundational repository of reusable security controls, capabilities,
         and threat models maintained by FINOS.
@@ -259,7 +259,7 @@ metadata:
   mapping-references:
     - id: CCC
       title: Common Cloud Controls Core
-      version: v2025.10
+      version: v2026.06-rc1
       url: https://github.com/finos/common-cloud-controls/releases
       description: |
         Foundational repository of reusable security controls, capabilities,
