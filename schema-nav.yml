@@ -28,6 +28,7 @@ pages:
       - "ArtifactMapping"
       - "MultiEntryMapping"
       - "EntryMapping"
+      - "EvidenceMapping"
   - title: "Guidance Catalog"
     filename: "guidancecatalog"
     layer: 1
@@ -96,6 +97,8 @@ pages:
       - "AcceptedMethod"
       - "ModeType"
       - "MethodType"
+      - "EvaluationMethodType"
+      - "EnforcementMethodType"
       - "Parameter"
       - "GuidanceImport"
       - "CatalogImport"
